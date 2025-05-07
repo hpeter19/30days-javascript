@@ -20,3 +20,9 @@ if (browserType.startsWith("zilla")) {
   console.log("No zilla here!");
 }
 //checking wether a strings starts with a substring
+const browserType = "mozilla";
+const updated = browserType.replace("moz", "van");
+
+console.log(updated); // "vanilla"
+console.log(browserType); // "mozilla"
+//REPLACING THE SUBSTRING INSIDE A STRING
