@@ -12,3 +12,11 @@ if (browserType.includes("zilla")) {
   console.log("No zilla here!");
 }
 //finding a substring  of a sttring
+const browserType = "mozilla";
+
+if (browserType.startsWith("zilla")) {
+  console.log("Found zilla!");
+} else {
+  console.log("No zilla here!");
+}
+//checking wether a strings starts with a substring
