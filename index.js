@@ -11,4 +11,4 @@ if (browserType.includes("zilla")) {
 } else {
   console.log("No zilla here!");
 }
-//finding the length of a sttring
+//finding a substring  of a sttring
