@@ -4,3 +4,11 @@ console.log(bigmouth);
 const browserType = "mozilla";
 browserType.length;
 //FINDING THE LENGTH OF A STRING 
+const browserType = "mozilla";
+
+if (browserType.includes("zilla")) {
+  console.log("Found zilla!");
+} else {
+  console.log("No zilla here!");
+}
+//finding the length of a sttring
