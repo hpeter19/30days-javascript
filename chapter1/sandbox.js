@@ -23,5 +23,7 @@ console.log(fullName[0]);
 //length of a string
 console.log(fullName.length);
 //string methods
-console.log(fullName.toUpperCase)
+console.log(fullName.toUpperCase());
+let result = fullName.toLocaleLowerCase();
+console.log(result,fullName);
 
