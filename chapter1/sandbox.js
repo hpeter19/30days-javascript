@@ -20,3 +20,8 @@ let fullName = firstName + ' ' + lastName;
 console.log(fullName);
 //getting string characters
 console.log(fullName[0]);
+//length of a string
+console.log(fullName.length);
+//string methods
+console.log(fullName.toUpperCase)
+
