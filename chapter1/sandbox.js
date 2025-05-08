@@ -1,8 +1,6 @@
-let email = 'njosh@gmail.com';
-//let result = email.lastIndexOf('n');
+let radius = 10;
 
+const pi= 3.14;
 
-//let result = email.slice(0,6);
-
-let result = email.replace('n','m');
-console.log(result);
+let results = radius % 3;
+console.log(results);
