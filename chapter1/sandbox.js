@@ -13,3 +13,8 @@ console.log(points);
 let email ='njosh@gmail.com';
 console.log(email);
 //variables as strings
+
+let firstName= 'brandews'
+let lastName= 'mark'
+let fullName = firstName + ' ' + lastName;
+console.log(fullName);
