@@ -9,3 +9,7 @@ console.log(age);
 const points=100;
 
 console.log(points);
+
+let email ='njosh@gmail.com';
+console.log(email);
+//variables as strings
