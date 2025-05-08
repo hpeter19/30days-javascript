@@ -18,3 +18,5 @@ let firstName= 'brandews'
 let lastName= 'mark'
 let fullName = firstName + ' ' + lastName;
 console.log(fullName);
+//getting string characters
+console.log(fullName[0]);
