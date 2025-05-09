@@ -79,3 +79,8 @@ console.log(age == '25')
 console.log(age === 25);
 console.log(age ==='25');
 console.log(age !== 25);
+//type conversion
+let score = '100';
+score=Number(score);
+console.log(score+1);
+console.log(typeof score);
