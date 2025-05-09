@@ -55,5 +55,6 @@ let ninjas = ['shaun','boniface'];
 
 //array methods
 
-let resulte = ninjas.join(',');
+//let resulte = ninjas.join(',');
+let resulte=ninjas.indexOf('shaun');
 console.log(resulte);
