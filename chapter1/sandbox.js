@@ -25,6 +25,10 @@ const author='Mark';
 const like= 30;
 
 //concatenation
-let result ='the blog ' + title + 'by'+author + 'has'+ like + 'likes';
+//let result ='the blog ' + title + 'by'+author + 'has'+ like + 'likes';
 
+//console.log(result);
+//Template strings
+let result =`The blog called ${title} by ${author} has ${like} likes`;
 console.log(result);
+
