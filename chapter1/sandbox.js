@@ -42,9 +42,13 @@ let html =`
 `
 console.log(html);
 
-//let ninjas = ['shaun','boniface'];
+let ninjas = ['shaun','boniface'];
 //ninjas[1]='shaun';
 //console.log(ninjas);
 
-let ages =[20,29,31,23];
-console.log(ages[2]);
+//let ages =[20,29,31,23];
+//console.log(ages[2]);
+
+
+//length of an array
+console.log(ninjas.length);
