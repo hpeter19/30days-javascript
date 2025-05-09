@@ -41,3 +41,7 @@ let html =`
 
 `
 console.log(html);
+
+let ninjas = ['shaun','boniface'];
+ninjas[1]='shaun';
+console.log(ninjas);
