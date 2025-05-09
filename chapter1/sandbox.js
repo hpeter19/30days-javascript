@@ -63,5 +63,11 @@ let resulte=ninjas.push('moris');
  result =ninjas.pop()
 console.log(ninjas);
 
-let age;
+let age =null;
 console.log(age,age+3, `the age is ${age}`);
+//comparison operators
+let time=25;
+console.log(time == 25);//true
+console.log(time == 30);//false
+console.log(time != 30);//true
+console.log(time > 30);//false
