@@ -17,3 +17,14 @@ let likes =11;
 // NaN Not a number
 
 console.log(5/'hello');
+
+
+
+const title='best reads of 2019';
+const author='Mark';
+const like= 30;
+
+//concatenation
+let result ='the blog ' + title + 'by'+author + 'has'+ like + 'likes';
+
+console.log(result);
