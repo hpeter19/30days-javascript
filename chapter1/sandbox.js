@@ -51,4 +51,9 @@ let ninjas = ['shaun','boniface'];
 
 
 //length of an array
-console.log(ninjas.length);
+//console.log(ninjas.length);
+
+//array methods
+
+let resulte = ninjas.join(',');
+console.log(resulte);
