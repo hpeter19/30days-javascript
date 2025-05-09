@@ -75,3 +75,7 @@ console.log(time > 30);//false
 let age = 25;
 console.log(age == 25);
 console.log(age == '25')
+//strict comparison
+console.log(age === 25);
+console.log(age ==='25');
+console.log(age !== 25);
