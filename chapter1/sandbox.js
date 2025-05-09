@@ -31,4 +31,13 @@ const like= 30;
 //Template strings
 let result =`The blog called ${title} by ${author} has ${like} likes`;
 console.log(result);
+//html templete
 
+let html =`
+  <h2>${title} </h2>
+  <p>By ${author}</p>
+  <span> This blog has ${like} likes</span>;
+
+
+`
+console.log(html);
