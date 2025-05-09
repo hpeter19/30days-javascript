@@ -60,4 +60,8 @@ let ninjas = ['shaun','boniface'];
 //let resulte=ninjas.concat(['ahadi','madowo']);
 
 let resulte=ninjas.push('moris');
+ result =ninjas.pop()
 console.log(ninjas);
+
+let age;
+console.log(age,age+3, `the age is ${age}`);
