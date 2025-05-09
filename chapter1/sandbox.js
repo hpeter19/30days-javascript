@@ -57,5 +57,7 @@ let ninjas = ['shaun','boniface'];
 
 //let resulte = ninjas.join(',');
 //let resulte=ninjas.indexOf('shaun');
-let resulte=ninjas.concat(['ahadi','madowo']);
-console.log(resulte);
+//let resulte=ninjas.concat(['ahadi','madowo']);
+
+let resulte=ninjas.push('moris');
+console.log(ninjas);
