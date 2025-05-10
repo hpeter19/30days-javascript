@@ -17,9 +17,16 @@ let i =0;
      i++;
  } */
 
-let i =0;
+/*let i =0;
 while(i<names.length){
   console.log(names[i]);
   i++;
 } 
+*/
 
+let i=5;
+do{
+  console.log('val of i is:',i);
+  i++;
+}
+while(i<5);
