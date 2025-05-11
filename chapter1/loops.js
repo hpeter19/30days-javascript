@@ -41,3 +41,9 @@ while(i<5);
  if (ninjas.length >3){
   console.log("those are a lot of ninjas");
  }
+
+ const password='pass';
+
+ if(password.length >=8){
+  console.log('password is long enough');
+ }
