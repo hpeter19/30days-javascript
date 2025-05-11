@@ -30,3 +30,9 @@ do{
   i++;
 }
 while(i<5);
+
+ const age= 20;
+
+ if (age >20){
+  console.log('you are over 20years old');
+ }
