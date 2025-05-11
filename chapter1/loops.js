@@ -34,5 +34,10 @@ while(i<5);
  const age= 20;
 
  if (age >20){
-  console.log('you are over 20years old');
+  console.log('you are over 20years old'); 
+ }
+
+ const ninjas =['mike','amri','tobiah','tamba']
+ if (ninjas.length >3){
+  console.log("those are a lot of ninjas");
  }
