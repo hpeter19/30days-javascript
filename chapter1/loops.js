@@ -48,7 +48,7 @@ while(i<5);
  if (password.length>=12 && password.includes('@')){
   console.log('password is strong enough')
  }
- if(password.length >=8 || password.includes('@') ){
+ if(password.length >=8 || password.includes('@') && password.length >=5){
   console.log('password is long enough');
  } else{
   console.log('password is not long enough')
