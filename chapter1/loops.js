@@ -31,24 +31,24 @@ do{
 }
 while(i<5);
 
- const age= 20;
+ const ages= 20;
 
- if (age >20){
+ if (ages >20){
   console.log('you are over 20years old'); 
  }
 
- const ninjas =['mike','amri','tobiah','tamba']
- if (ninjas.length >3){
+ const ninjass=['mike','amri','tobiah','tamba']
+ if (ninjass.length >3){
   console.log("those are a lot of ninjas");
  }
 
- const password='pass';
+ const password='pa@ss';
 
 
  if (password.length>=12 && password.includes('@')){
   console.log('password is strong enough')
  }
- if(password.length >=8){
+ if(password.length >=8 || password.includes('@') ){
   console.log('password is long enough');
  } else{
   console.log('password is not long enough')
