@@ -48,8 +48,23 @@ while(i<5);
  if (password.length>=12 && password.includes('@')){
   console.log('password is strong enough')
  }
- if(password.length >=8 || password.includes('@') && password.length >=5){
+ if(password.length >=8 || password.includes('@') && password.length >=5){//second part evaluates from and
   console.log('password is long enough');
  } else{
   console.log('password is not long enough')
  }
+
+ //LOGICAL NOT
+
+ let user =false;
+
+ let sum = (a, b) => a + b;
+
+/* This arrow function is a shorter form of:
+
+let sum = function(a, b) {
+  return a + b;
+};
+*/
+
+alert( sum(1, 2) ); // 3
