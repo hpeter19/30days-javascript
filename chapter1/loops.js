@@ -68,3 +68,14 @@ let sum = function(a, b) {
 */
 
 alert( sum(1, 2) ); // 3
+
+//break and continue
+
+const scores = [10,14,15,23,0,4];
+for(let i=0; i<scores.length;i++){
+  console.log('your score:',scores[i]);
+  if(scores[i] ===100){
+    console.log('congrats you got the top scores');
+    break;
+  }
+}
