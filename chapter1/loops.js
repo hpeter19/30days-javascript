@@ -83,3 +83,24 @@ for(let i=0; i<scores.length;i++){
     break;
   }
 }
+
+//switch statements
+
+const grade= 'D';
+
+switch (grade){
+  case 'A':
+    console.log('you got an A');
+  case 'B':
+      console.log('you got an B');
+  case 'C':
+        console.log('you got an C');
+  case 'D':
+    console.log('you got an D');
+  case 'E':
+    console.log('you got an E');
+  case 'F':
+    console.log('you got an F'); 
+  default:
+    console.log('Not a vslid grade');    
+}
