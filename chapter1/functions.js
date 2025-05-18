@@ -37,3 +37,13 @@ const greets =() => 'hello world'
 
 const results =greets();
 console.log(results);
+
+const name ='shaun';
+//functions
+const greetse = () => 'hello';
+let resultOne = (greetse);
+console.log(resultOne);
+
+//methods 
+let resultTwo = name.toUpperCase();
+console.log(resultTwo);
