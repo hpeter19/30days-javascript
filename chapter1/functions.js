@@ -47,3 +47,8 @@ console.log(resultOne);
 //methods 
 let resultTwo = name.toUpperCase();
 console.log(resultTwo);
+//callbacks and for each
+let people = ['mike','shart','polo','nasta'];
+people.forEach(function (person) {
+     console.log(person);
+});
