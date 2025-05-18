@@ -27,7 +27,7 @@ speaks('mike','morning');
 } */
 
 //arrrow function
-const calcArea =radius =>{
+const calcArea =()=>{
     return 3.14*radius**2;
 };
 
