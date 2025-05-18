@@ -1,6 +1,6 @@
-function greet(){
-    console.log('hello there');
-}
+//function greet(){
+  //  console.log('hello there');
+//}
 
 //FUNCTION EXPRESSION
 const speak =function(){
@@ -9,3 +9,7 @@ const speak =function(){
 
 greet();
 speak();
+
+function greet(){
+    console.log('hello there');
+}
