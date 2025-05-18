@@ -21,10 +21,15 @@ const speaks = function(name,time){
 
 speaks('mike','morning');
 
-const calcArea =function(radius){
+/*const calcArea =function(radius){
     let area=3.14 *radius**2;
     return area;
-}
+} */
+
+//arrrow function
+const calcArea =(radius) =>{
+    return 3.14*radius**2;
+};
 
 const area =calcArea(5);
-console.log(area);
+console.log('area is :',area);
