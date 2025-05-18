@@ -32,3 +32,8 @@ const calcArea =radius => 3.14*radius**2;
 
 const area =calcArea(5);
 console.log('area is :',area);
+
+const greets =() => 'hello world'
+
+const results =greets();
+console.log(results);
