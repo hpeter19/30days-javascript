@@ -49,6 +49,11 @@ let resultTwo = name.toUpperCase();
 console.log(resultTwo);
 //callbacks and for each
 let people = ['mike','shart','polo','nasta'];
-people.forEach((person,index) =>{
+
+const logperson =(person,index)=>{
+console.log(`${index} -hello ${person}`);
+};
+/*people.forEach((person,index) =>{
      console.log(index,person);
-});
+});*/
+people.forEach(logperson);
