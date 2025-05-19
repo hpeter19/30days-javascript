@@ -85,9 +85,13 @@ function addOne(num) {
     return num + 1;
   }
   const arre = [1, 2, 3, 4, 5];
-  const mappedArr = arre.map(addOne);
-  console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
+  const mappedeArr = arre.map(addOne);
+  console.log(mappedeArr); // Outputs [2, 3, 4, 5, 6]
   //returns a new array and does not change the original ones
   
+  const arres = [1, 2, 3, 4, 5];
+  const mappedArr = arres.map((num) => num + 1);
+  console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
+//MAP METHOD WITH THE ARROW FUNCTION  
 
   
