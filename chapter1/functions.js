@@ -79,4 +79,15 @@ console.log(arr); // Outputs [1, 2, 3, 4, 5]
 //  apply the callback function to it. It updates total without actually 
 // changing the array itself. After it’s done, it returns total.
 
+//map method
+
+function addOne(num) {
+    return num + 1;
+  }
+  const arre = [1, 2, 3, 4, 5];
+  const mappedArr = arre.map(addOne);
+  console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
+  //returns a new array and does not change the original ones
+  
+
   
