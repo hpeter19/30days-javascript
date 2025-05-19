@@ -67,4 +67,16 @@ function isOdd(num) {
   const oddNums = arr.filter(isOdd);
   console.log(oddNums); // Outputs [1, 3, 5];
   console.log(arr); // Outputs [1, 2, 3, 4, 5], original array is not affected
+
+//reduce method
+const arrs = [1, 2, 3, 4, 5];
+const productOfAllNums = arrs.reduce((total, currentItem) => {
+  return total * currentItem;
+}, 1);
+console.log(productOfAllNums); // Outputs 120;
+console.log(arr); // Outputs [1, 2, 3, 4, 5]
+//So what .reduce() will do is go through every element in arr and
+//  apply the callback function to it. It updates total without actually 
+// changing the array itself. After it’s done, it returns total.
+
   
