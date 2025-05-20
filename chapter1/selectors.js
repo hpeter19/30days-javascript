@@ -1,6 +1,12 @@
-// selects the #container div (don't worry about the syntax, we'll get there)
+// selects the #container div 
 const container = document.querySelector("#container");
 
 // selects the first child of #container => .display
 const display = container.firstElementChild;
 console.log(display);  // <div class="display"></div>
+
+// selects the .controls div
+const controls = document.querySelector(".controls");
+
+
+
