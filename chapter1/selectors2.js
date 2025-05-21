@@ -8,8 +8,8 @@ content.textContent = "This is the glorious text-content!";
 container.appendChild(content);
 
 // the JavaScript file
-const btn = document.querySelector("#btn");
-btn.onclick = () => alert("Hello World");
+const btnss = document.querySelector("#btn");
+btnss.onclick = () => alert("Hello World");
 
 /*btn.addEventListener("click", function (e) {
     console.log(e.target);
@@ -28,6 +28,17 @@ buttons.forEach((button) => {
   button.addEventListener("click", () => {
     alert(button.id);
   });
+});
+
+const btn = document.querySelector("button");
+
+function random(number) {
+  return Math.floor(Math.random() * (number + 1));
+}
+
+btn.addEventListener("click", () => {
+  const rndCol = `rgb(${random(255)} ${random(255)} ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
 });
 
 
