@@ -6,3 +6,6 @@ let user = {
    location: 'berlin',
    blogs: ['why cheese and mark rules','10things to make with marmite']
    };
+
+console.log(user);
+console.log(user.name);  
