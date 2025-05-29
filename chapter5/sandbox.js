@@ -13,3 +13,5 @@ console.log(user.name);
 user.age= 35;
 
 console.log(user.age);
+
+console.log(user['name']);
