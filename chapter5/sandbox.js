@@ -5,13 +5,13 @@ let user = {
    email: 'maloo@gmail.com',
    location: 'berlin',
    blogs: ['why cheese and mark rules','10things to make with marmite'],
-   login: function(){
+   login(){
     console.log('the user logged in');
    },
-   logout : function(){
+   logout(){
    console.log('the user logged out');
   },
-  logBlogs: function(){
+  logBlogs(){
    // console.log(this.blogs);
    console.log('this user has written several blogs');
    this.blogs.forEach(blog =>{
