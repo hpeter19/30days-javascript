@@ -12,7 +12,11 @@ let user = {
    console.log('the user logged out');
   },
   logBlogs: function(){
-    console.log(this.blogs);
+   // console.log(this.blogs);
+   console.log('this user has written several blogs');
+   this.blogs.forEach(blog =>{
+      console.log(blog);
+   })
   }
 
    };
