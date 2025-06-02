@@ -7,21 +7,21 @@ let user = {
    blogs: ['why cheese and mark rules','10things to make with marmite'],
    login: function(){
     console.log('the user logged in');
-   }
+   },
+   logout : function(){
+   console.log('the user logged out');
+  }
+
    };
 
 
    user.login();
+   user.logout();
 
-   const myText = "I am a string";
-const newString = myText.replace("string", "sausage");
-console.log(newString);
+const name ='mario';
+name.toUpperCase();
 
-   user.login();
 
-   const myText = "I am a string";
-const newString = myText.replace("string", "sausage");
-console.log(newString);
 
 
 
