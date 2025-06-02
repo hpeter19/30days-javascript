@@ -10,16 +10,15 @@ let user = {
    },
    logout : function(){
    console.log('the user logged out');
+  },
+  logBlogs: function(){
+    console.log(this);
   }
 
    };
 
+   user.logBlogs();
 
-   user.login();
-   user.logout();
-
-const name ='mario';
-name.toUpperCase();
 
 
 
