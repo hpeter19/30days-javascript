@@ -1,4 +1,9 @@
+const blogs = [
+   {title:'why cheese and mark rules',likes:30},
+   {title:'10things to make with marmite',likes:50}
+];
 
+console.log(blogs);
 let user = {
    name: 'christine',
    age: 30,
