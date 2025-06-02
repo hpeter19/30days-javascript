@@ -22,7 +22,7 @@ let user = {
    };
 
    user.logBlogs();
-
+ //creating objects using object literal notations
 
 
 
