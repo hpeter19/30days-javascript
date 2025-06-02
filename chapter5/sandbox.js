@@ -1,15 +1,19 @@
-const blogs = [
+/*const blogs = [
    {title:'why cheese and mark rules',likes:30},
    {title:'10things to make with marmite',likes:50}
 ];
 
-console.log(blogs);
+
+console.log(blogs); */
 let user = {
    name: 'christine',
    age: 30,
    email: 'maloo@gmail.com',
    location: 'berlin',
-   blogs: ['why cheese and mark rules','10things to make with marmite'],
+   blogs: [
+   {title:'why cheese and mark rules',likes:30},
+   {title:'10things to make with marmite',likes:50}
+   ],
    login(){
     console.log('the user logged in');
    },
@@ -20,7 +24,7 @@ let user = {
    // console.log(this.blogs);
    console.log('this user has written several blogs');
    this.blogs.forEach(blog =>{
-      console.log(blog);
+      console.log(blog.title, blog.likes);
    })
   }
 
