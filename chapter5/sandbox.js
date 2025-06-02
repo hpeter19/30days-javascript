@@ -12,7 +12,7 @@ let user = {
    console.log('the user logged out');
   },
   logBlogs: function(){
-    console.log(this);
+    console.log(this.blogs);
   }
 
    };
