@@ -4,7 +4,7 @@
 ];
 
 
-console.log(blogs); */
+console.log(blogs); 
 let user = {
    name: 'christine',
    age: 30,
@@ -33,7 +33,9 @@ let user = {
    user.logBlogs();
  //creating objects using object literal notations
 
-
+*/
+console.log(Math);
+console.log(Math.PI);
 
 
 
