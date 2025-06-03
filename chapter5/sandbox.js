@@ -37,5 +37,9 @@ let user = {
 console.log(Math);
 console.log(Math.PI);
 
+const area = 7.7;
+
+console.log(Math.round(area));
+
 
 
