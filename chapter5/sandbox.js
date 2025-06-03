@@ -48,7 +48,7 @@ console.log(Math.trunc(area));
 
 const random = Math.random();
 console.log(random);
-console.log(Math.round(random));
+console.log(Math.round(random*100));
 
 
 
