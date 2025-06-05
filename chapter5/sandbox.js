@@ -67,6 +67,12 @@ userOne.age=40;
 
 console.log(userOne,userTwo);
 
+let user = {
+  name: "John",
+  age: 30,
+  "likes birds": true  
+};
+
 
 
 
