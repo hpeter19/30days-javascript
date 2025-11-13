@@ -1,23 +1,114 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar</title>
-    <link rel="stylesheet" href="sidebar.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=chevron_left" />
-</head>
-<body>
-    <aside class="sidebar">
-        <header class="side-bar"></header>
-        <a href="#" class="header-logo">CityLight</a>
-        <button class="toggler">
-                   <span class="material-symbols-outlined">chevron_left</span>
-        </button>
-    </aside>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidebar</title>
 
-    <script src="sidebar.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="sidebar.css" />
+
+  <!-- Google Material Symbols (make sure to include all needed icons) -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+  />
+</head>
+
+<body>
+  <aside class="sidebar">
+    <!-- Sidebar Header -->
+    <header class="sidebar-header">
+      <a href="#" class="header-logo">CityLight</a>
+
+      <button class="toggler" aria-label="Toggle sidebar">
+        <span class="material-symbols-outlined">chevron_left</span>
+      </button>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar-nav">
+      <ul class="nav-list primary-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="nav-icon material-symbols-outlined">dashboard</span>
+            <span class="nav-label">Dashboard</span>
+          </a>
+        </li>
+
+        <!-- Example additional menu items -->
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="nav-icon material-symbols-outlined">calendar_today</span>
+            <span class="nav-label">Calender</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="material-symbols-outlined">notifications</span>
+            <span class="nav-icon nav-label">Notifications</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="nav-icon material-symbols-outlined">group</span>
+            <span class="nav-label">Team</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="nav-icon material-symbols-outlined">analytics</span>
+            <span class="nav-label">Analytics</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="nav-icon material-symbols-outlined">star</span>
+            <span class="nav-label">Bookmark</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="nav-icon material-symbols-outlined">settings</span>
+            <span class="nav-label">Settings</span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="nav-list secondary-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="nav-icon material-symbols-outlined">account_circle</span>
+            <span class="nav-label">Profile</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="nav-icon material-symbols-outlined">logout</span>
+            <span class="nav-label">logout</span>
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- JS Files -->
+  <script src="sidebar.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
 </body>
 </html>
