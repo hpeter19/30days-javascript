@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="footer.css">
     <title>footer</title>
 </head>
@@ -30,8 +31,18 @@
                     <li><a href="Contacts">Contacts</a></li>
                   </ul>
             </div>
-            <div class="col"></div>
+            <div class="col">
+                <h3>NewsLetter</h3>
+                <form >
+                    <ion-icon name="mail-outline" class="ion"></ion-icon>
+                    <input type="email" placeholder="enter your email" required>
+                    <button type="submit"><ion-icon name="arrow-forward-outline"></ion-icon></button>
+                </form>
+            </div>
         </div>
     </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
