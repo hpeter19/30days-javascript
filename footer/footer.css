@@ -38,6 +38,10 @@ footer{
 .logo{
     width: 80px;
     margin-bottom: 30px;
+    background: transparent;
+}
+.row.col img{
+    background: transparent;
 }
 .col h3{
     width: fit-content;
