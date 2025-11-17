@@ -26,7 +26,7 @@
 .sidebar .logo-datails ion-icon{
     font-size: 30px;
     color: #fff;
-    height: 50px;
+    height: 60px;
     min-width: 78px;
     text-align: center;
     line-height: 50px;
@@ -37,4 +37,41 @@
     font-size: 22px;
     color: #fff;
     font-weight: 600;
+
+}
+.sidebar .nav-links{
+    background: red;
+    height: 100%;
+    padding-top: 30px;
+}
+.sidebar .nav-links li{
+   position: relative;
+   list-style: none;
+
+}
+.sidebar .nav-links li .icon-link{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar .nav-links li ion-icon{
+    font-size: 14px;
+    height: 30px;
+    min-width: 68px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    
+}
+.sidebar .nav-links li  a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+.sidebar .nav-links li  a .link_name{
+     font-size: 18px;
+     font-weight: 600;
+     color: #fff;
 }
