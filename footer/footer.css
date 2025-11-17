@@ -67,3 +67,11 @@ form .ion{
     font-size: 18px;
     margin-right: 10px;
 }
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: none;
+    outline: none;
+    
+}
