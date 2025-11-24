@@ -43,3 +43,11 @@ body{
     font-weight: 500;
     border-radius: 12px;
 }
+.contact-left textarea{
+  height: 140px;
+  padding-top:15px;
+  border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid #ff994f;
+}
