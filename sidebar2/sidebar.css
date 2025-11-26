@@ -33,13 +33,16 @@
     font-weight: 600;
 }
 .sidebar .nav-links{
-    background: red;
     height: 100%;
     padding-top: 30px;
 }
 .sidebar .nav-links li{
     position: relative;
     list-style: none;
+    transition: 0.4s ease all;
+}
+.sidebar .nav-links li:hover{
+    background: #1d1b31;
 }
 .sidebar .nav-links li .iocn-link{
      display: flex;
@@ -65,3 +68,27 @@
     font-weight: 400;
     color: #fff;
 }
+.sidebar .nav-links li .sub-menu{
+    padding: 6px 6px 14px 80px;
+    margin-top: -10px;
+    background: #1d1b31;
+   /* display: none; */
+}
+
+.sidebar .nav-links li .sub-menu a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0;
+    white-space: nowrap;
+
+}
+
+.sidebar.close .nav-links li .sub-menu{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-top: 0;
+    padding: 10px 20px;
+    border-radius: 0 6px 6px 0;
+}
+
