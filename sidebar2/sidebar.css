@@ -162,4 +162,9 @@
 .sidebar .profile-details .job{
     font-size: 12px;
 }
-
+.home-section{
+    position: relative;
+    background: red;
+    left: 260px;
+    width: calc(100%-260px);
+}
