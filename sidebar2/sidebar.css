@@ -164,7 +164,27 @@
 }
 .home-section{
     position: relative;
-    background: red;
+    background: #e4e9f7;
+    height: 100vh;
     left: 260px;
     width: calc(100%-260px);
+}
+.home-section .home-content{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.home-section .home-content .bx-menu,
+.home-section .home-content .text{
+    color:black;
+    font-size: 35px;
+}
+.home-section .home-content .bx-menu{
+    margin: 0 15px;
+}
+.home-section .home-content .text{
+    font-size: 26px;
+    font-weight: 600;
+    display: none;
 }
