@@ -48,6 +48,9 @@ body{
 .sidebar-links{
     list-style: none;
     margin-top: 20px;
+    height: 80%;
+    overflow-y: auto;
+    scrollbar-width: none;
 }
 
 .sidebar-links li a{
@@ -56,7 +59,7 @@ body{
     gap: 0 20px;
     color: #dbd4d4e3;
     font-weight: 500;
-    padding: 5px 10px;
+    padding: 15px 10px;
     white-space: nowrap;
     text-decoration: none;
 }
@@ -69,4 +72,13 @@ body{
     margin-top: auto;
     padding: 3px 4px;
     margin-left: -10px;
+}
+.user-account .user-profile{
+    color: #e5dede;
+}
+
+.user-profile img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }
