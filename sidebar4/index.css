@@ -59,7 +59,7 @@ body{
     gap: 0 20px;
     color: #dbd4d4e3;
     font-weight: 500;
-    padding: 15px 10px;
+    padding: 5px 10px;
     white-space: nowrap;
     text-decoration: none;
 }
@@ -81,4 +81,8 @@ body{
     width: 32px;
     height: 32px;
     border-radius: 50%;
+}
+.user-profile h3{
+    font-size: 1rem;
+    font-weight: 600;
 }
