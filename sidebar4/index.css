@@ -60,3 +60,13 @@ body{
     white-space: nowrap;
     text-decoration: none;
 }
+.sidebar-links li a:hover{
+      background: #ffffff2d;
+      color: #fff;
+      border-radius: 4px;
+}
+.user-account{
+    margin-top: auto;
+    padding: 3px 4px;
+    margin-left: -10px;
+}
