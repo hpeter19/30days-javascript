@@ -38,3 +38,10 @@ body{
     color: #fff;
     margin-left: 23px;
 }
+
+.sidebar-links h4{
+    color: #fff;
+    font-weight: 500;
+    margin: 10px 0;
+    white-space: nowrap;
+}
