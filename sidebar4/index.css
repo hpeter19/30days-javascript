@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    background: #161a2d;
+    background: rgb(3, 47, 50);
     padding: 25px 20px;
     transition: all 0.4s ease;
 }
@@ -109,5 +109,6 @@ body{
 .user-profile span{
     font-size: 0.75rem;
     font-weight: 600;
+
 
 }
