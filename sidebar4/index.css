@@ -108,5 +108,6 @@ body{
 }
 .user-profile span{
     font-size: 0.75rem;
+    padding: auto;
 
 }
