@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import Card from "./Card";
 import Button from "./Button";
 import MyComponent from "./MyComponent";
+import ButtonTwo from "./ButtonTwo";
 
 function App(){
     return(
@@ -12,6 +13,7 @@ function App(){
       <Card />
       <Button />
       < MyComponent />
+      <ButtonTwo />
       </>
     );
 }

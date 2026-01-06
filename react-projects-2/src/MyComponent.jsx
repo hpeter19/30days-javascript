@@ -29,10 +29,6 @@ function MyComponent(){
             <p>Is Employed:{isEmployed ?"Yes" : "No"}</p>
             <button onClick={toggleEmployedStatus}>Toggle Status</button> 
           
-          
-            <p>Is Employed:{isEmployed ?"Yes" : "No"}</p>
-            <button onClick={toggleEmployedStatus}>Toggle Status</button>
-            
 
         </div>
     );
