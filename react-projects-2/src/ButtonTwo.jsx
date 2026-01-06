@@ -10,6 +10,7 @@ function ButtonTwo(){
     return(
         <div>
             <input value={name} onChange={handleNameChange} />
+            <p>Name:{name}</p>
         </div>
     );
 }
