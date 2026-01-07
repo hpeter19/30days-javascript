@@ -2,6 +2,7 @@ import { useState } from "react";
 function ButtonTwo(){
 
     const [name,setName] =useState("")
+    const [quantity, setQuantity]= useState("")
 
     function handleNameChange(event){
         setName(event.target.value)
