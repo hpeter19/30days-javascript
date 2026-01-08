@@ -3,6 +3,7 @@ function ButtonTwo(){
 
     const [name,setName] =useState("");
     const [quantity, setQuantity]= useState();
+    const [comment, setComment] =useState("");
 
     function handleNameChange(event){
         setName(event.target.value)
@@ -12,6 +13,9 @@ function ButtonTwo(){
         setQuantity(event.target.value);
     }
 
+    function handleCommentChange(){
+        setComment(event.target.value)
+    }
     return(
         <div>
             <input value={name} onChange={handleNameChange} />
@@ -19,6 +23,10 @@ function ButtonTwo(){
 
             <input value={quantity} onChange={handleQuantityChange} type="number" />
             <p>Quantity: {quantity}</p>
+
+            <textarea value={comment} onChange={handleCommentChange}
+             placeholder="Enter delivery options" />
+             <p>comment: {comment}</p>
         </div>
     );
 }
