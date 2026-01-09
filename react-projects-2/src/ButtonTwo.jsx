@@ -5,6 +5,7 @@ function ButtonTwo() {
   const [comment, setComment] = useState("");
   const [payment, setPayment] = useState("");
   const [shipping, setShipping] = useState("");
+  const [car, setCar] =useState({year:2024,make:"ford", model:"mustang"});
 
   function handleNameChange(event) {
     setName(event.target.value);
@@ -69,7 +70,15 @@ function ButtonTwo() {
         Pick Up
       </label>
       <p>Shipping: {shipping}</p>
+
+      <p>your favourite car is: {car.year} {car.make} {car.model} </p>
+
+      <input type="number" value={car.year} /> <br/>
+      <input type="text" value={car.make} /> <br/>
+      <input type="text" value={car.model} /> 
     </div>
+
+
   );
 }
 export default ButtonTwo;
