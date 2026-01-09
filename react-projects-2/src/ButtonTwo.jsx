@@ -34,8 +34,8 @@ function ButtonTwo() {
      setCar(c =>({...c, make:event.target.value}));
   }
 
-   function handleModelChange(){
-    
+   function handleModelChange(event){
+     setCar(car =>({...car,model:event.target.value}));
   }
 
 
