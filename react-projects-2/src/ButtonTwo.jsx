@@ -4,18 +4,24 @@ function ButtonTwo(){
     const [name,setName] =useState("");
     const [quantity, setQuantity]= useState();
     const [comment, setComment] =useState("");
+    const [payment, setPayment] = useState("");
 
     function handleNameChange(event){
         setName(event.target.value)
     }
 
-    function handleQuantityChange(){
+    function handleQuantityChange(event){
         setQuantity(event.target.value);
     }
 
-    function handleCommentChange(){
+    function handleCommentChange(event){
         setComment(event.target.value)
     }
+
+    function handlePaymentChange(event){
+         setPayment(event.target.value)
+    }
+
     return(
         <div>
             <input value={name} onChange={handleNameChange} />
@@ -27,6 +33,14 @@ function ButtonTwo(){
             <textarea value={comment} onChange={handleCommentChange}
              placeholder="Enter delivery options" />
              <p>comment: {comment}</p>
+
+             <select value={payment} onChange={handlePaymentChange}>
+               <option value="">select an option</option>
+               <option value="Visa">Visa</option>
+               <option value="Mastercard">MasterCard</option>
+               <option value="GiftCard">GiftCard</option>
+             </select>
+              <p>Payment:{payment}</p>
         </div>
     );
 }
