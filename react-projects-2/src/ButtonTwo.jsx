@@ -6,6 +6,7 @@ function ButtonTwo() {
   const [payment, setPayment] = useState("");
   const [shipping, setShipping] = useState("");
   const [car, setCar] =useState({year:2024,make:"ford", model:"mustang"});
+  const [food, setFood] =useState([]);
 
   function handleNameChange(event) {
     setName(event.target.value);
