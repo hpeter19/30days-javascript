@@ -6,7 +6,7 @@ function ButtonTwo() {
   const [payment, setPayment] = useState("");
   const [shipping, setShipping] = useState("");
   const [car, setCar] =useState({year:2024,make:"ford", model:"mustang"});
-  const [food, setFood] =useState(["apple","orange"]);
+  const [foods, setFood] =useState(["apple","orange"]);
 
   function handleNameChange(event) {
     setName(event.target.value);
@@ -96,9 +96,14 @@ function ButtonTwo() {
       <input type="number" value={car.year} onChange={handleYearChange} /> <br/>
       <input type="text" value={car.make} onChange={handleMakeChange} /> <br/>
       <input type="text" value={car.model} onChange={handleModelChange} /> 
+
+      <h2>List Of Food</h2>
+      <ul>
+        {foods.map((food,index) =><li key={index}>{food}</li>)}
+      </ul>
     </div>
 
-
+   
   );
 }
 export default ButtonTwo;
