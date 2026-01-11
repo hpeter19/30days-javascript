@@ -39,6 +39,13 @@ function ButtonTwo() {
      setCar(car =>({...car,model:event.target.value}));
   }
 
+   function handleAddFood(event){
+     setFood()
+   }
+
+    function handleRemoveFood(event){
+     setFood()
+   }
 
   return (
     <div>
