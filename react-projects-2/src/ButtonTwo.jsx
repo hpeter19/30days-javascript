@@ -100,6 +100,7 @@ function ButtonTwo() {
       <h2>List Of Food</h2>
       <ul>
         {foods.map((food,index) =><li key={index}>{food}</li>)}
+         {foods.map((food,index) =><li key={index}>{food}</li>)}
       </ul>
     </div>
 
